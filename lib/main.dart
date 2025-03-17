@@ -113,8 +113,8 @@ class _LoginPageState extends State<LoginPage> {
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
-                          TextButton(onPressed: () {}, child: const Text("Daftar Mbanking", style: TextStyle(color: Colors.blue))),
-                          TextButton(onPressed: () {}, child: const Text("Lupa Password?", style: TextStyle(color: Colors.blue))),
+                          TextButton(onPressed: () {}, child: const Text("Daftar Mbanking", style: TextStyle(color: Color.fromARGB(255, 3, 21, 155)))),
+                          TextButton(onPressed: () {}, child: const Text("Lupa Password?", style: TextStyle(color: Color.fromARGB(255, 3, 21, 155)))),
                         ],
                       ),
                     ],
